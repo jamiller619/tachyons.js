@@ -5,7 +5,7 @@ Tachyons helper function for JavaScript. Built with PostCSS Modules.
 ```javascript
 import tachyons from 'tachyons.js'
 
-const app = <div id="app" classNames={tachyons('pa3 center font-serif')} />
+const app = <div id="app" classNames={tachyons('pa3 center sans-serif')} />
 ```
 ## Install
 You can install by cloning this repo and building from source, or: `yarn add tachyons.js` or `npm i --save-dev tachyons.js`
