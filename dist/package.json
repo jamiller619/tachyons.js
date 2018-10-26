@@ -1,0 +1,18 @@
+{
+  "name": "tachyons.js",
+  "version": "1.0.0",
+  "description": "Tachyons helper function for JavaScript. Built with PostCSS Modules.",
+  "main": "tachyons.js",
+  "keywords": [
+    "tachyons",
+    "modules",
+    "css-in-js",
+    "postcss"
+  ],
+  "author": {
+    "name": "Jeff Miller",
+    "email": "hello@jamiller.me",
+    "url": "https://jamiller.me"
+  },
+  "license": "MIT"
+}
