@@ -13,7 +13,7 @@ and in your a css file:
 ```
 
 ## Install
-You can install by cloning this repo and building from source, or: `yarn add tachyons.js` or `npm i tachyons.js`
+You can install by cloning this repo and building from source, or: `yarn add @jamr/tachyons.js` or `npm i @jamr/tachyons.js`
 
 ## More info
 `yarn build` to build the project from source, grabbing the latest release from tachyons.

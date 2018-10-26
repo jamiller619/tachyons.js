@@ -1,5 +1,5 @@
 {
-  "name": "tachyons.js",
+  "name": "@jamr/tachyons.js",
   "version": "1.0.0",
   "description": "Tachyons helper function for JavaScript. Built with PostCSS Modules.",
   "main": "tachyons.js",
