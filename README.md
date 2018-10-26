@@ -1,14 +1,16 @@
 # tachyons.js
 Tachyons helper function for JavaScript. Built with PostCSS Modules.
 
-# Example
+## Example
 ```javascript
 import tachyons from 'tachyons.js'
 
 const app = <div id="app" classNames={tachyons('pa3 center font-serif')} />
 ```
+## Install
+You can install by cloning this repo and building from source, or: `yarn add tachyons.js` or `npm i --save-dev tachyons.js`
 
-# More info:
+## More info:
 Running `yarn build` creates a dist folder with four files:
 * tachyons.js - The helper file to import into your files
 * tachyons.min.css - The CSS your site/app needs to include
