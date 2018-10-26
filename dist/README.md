@@ -1,5 +1,5 @@
 # tachyons.js
-Easily add (https://tachyons.io)[tachyons] to your project when using a bundler. Built with (https://postcss.org)[PostCSS] & (https://github.com/css-modules/postcss-modules)[PostCSS Modules].
+Easily add [tachyons](https://tachyons.io) to your project when using a bundler. Built with [PostCSS](https://postcss.org) & [PostCSS Modules](https://github.com/css-modules/postcss-modules).
 
 ## Example
 ```javascript
