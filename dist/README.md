@@ -3,7 +3,7 @@ Easily add [tachyons](https://tachyons.io) to your project when using a bundler.
 
 ## Example
 ```javascript
-import tachyons from 'tachyons.js'
+import tachyons from '@jamr/tachyons.js'
 
 const app = <div id="app" classNames={tachyons('pa3 center sans-serif')} />
 ```
