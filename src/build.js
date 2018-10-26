@@ -13,8 +13,14 @@ fs.readFile(src, (err, css) => {
     return console.log(err)
   }
 
-  postcss([modules])
-    .process(css, { from: src, to: dest })
+  postcss([modules({
+    getJSON: (cssFilename, json, outputFilename) => {
+      const jsonFileName = `${dest}.json`
+      
+      fs.writeFile(jsonFileName, JSON.stringify(json))
+    }
+  })])
+    .process(css, { from: src, to: dest, map: { inline: false }})
     .then(result => {
       fs.writeFile(dest, result.css, () => true)
       if (result.map) {
