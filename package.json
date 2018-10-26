@@ -4,7 +4,7 @@
   "description": "Tachyons helper function for JavaScript. Built with PostCSS Modules.",
   "main": "dist/styles.js",
   "scripts": {
-    "build": "node ./src/build.js"
+    "build": "node ./build.js"
   },
   "keywords": [
     "tachyons",
@@ -18,7 +18,8 @@
     "url": "https://jamiller.me"
   },
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
+    "postcss": "^7.0.5",
     "postcss-modules": "^1.4.1",
     "tachyons": "^4.11.1"
   }
