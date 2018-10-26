@@ -12,9 +12,6 @@ and in your a css file:
 @import "tachyons.js/tachyons.css";
 ```
 
-## Install
-You can install by cloning this repo and building from source, or: `yarn add tachyons.js` or `npm i tachyons.js`
-
 ## More info
 The three main files:
 * tachyons.js - The helper file to use in your import statements.
