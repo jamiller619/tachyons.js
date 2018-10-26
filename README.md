@@ -9,8 +9,8 @@ const app = <div id="app" classNames={tachyons('pa3 center sans-serif')} />
 ```
 and in your a css file:
 ```css
-// If you're NOT using a bundler, prefix this line with "node_modules/"
-@import "tachyons.js/tachyons.css"
+// If you're NOT using a bundler, prefix the following with "node_modules/"
+@import "tachyons.js/tachyons.css";
 ```
 
 ## Install
