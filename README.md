@@ -5,7 +5,7 @@ Easily add [tachyons](https://tachyons.io) to your project when using a bundler.
 ```javascript
 import tachyons from '@jamr/tachyons.js'
 
-const app = <div id="app" classNames={tachyons('pa3 center sans-serif')} />
+const app = <div id="app" className={tachyons('pa3 center sans-serif')} />
 ```
 and in your a css file:
 ```css
