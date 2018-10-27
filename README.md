@@ -9,7 +9,7 @@ const app = <div id="app" classNames={tachyons('pa3 center sans-serif')} />
 ```
 and in your a css file:
 ```css
-@import "tachyons.js/tachyons.css";
+@import "@jamr/tachyons.js/tachyons.css";
 ```
 
 ## Install
