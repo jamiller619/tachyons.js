@@ -1,6 +1,6 @@
 {
   "name": "@jamr/tachyons.js",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Tachyons helper function for JavaScript. Built with PostCSS Modules.",
   "main": "dist/tachyons.js",
   "scripts": {
@@ -13,11 +13,7 @@
     "postcss modules"
   ],
   "repository": "https://github.com/jamiller619/tachyons.js",
-  "author": {
-    "name": "Jeff Miller",
-    "email": "hello@jamiller.me",
-    "url": "https://jamiller.me"
-  },
+  "author": "Jeff Miller",
   "license": "MIT",
   "dependencies": {
     "postcss": "^7.0.5",
