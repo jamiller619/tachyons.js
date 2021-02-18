@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 const fs = require('fs')
 const postcss = require('postcss')
 const modules = require('postcss-modules')
@@ -18,18 +16,18 @@ fs.readFile(src, (err, css) => {
     modules({
       getJSON: (cssFilename, json, outputFilename) => {
         const jsonFileName = `${dest}.json`
-        fs.writeFile(jsonFileName, JSON.stringify(json), err => {
+        fs.writeFile(jsonFileName, JSON.stringify(json), (err) => {
           if (err) throw err
         })
-      }
-    })
+      },
+    }),
   ])
     .process(css, { from: src, to: dest })
-    .then(result => {
-      fs.writeFile(dest, result.css, err => {
+    .then((result) => {
+      fs.writeFile(dest, result.css, (err) => {
         if (err) throw err
         console.log('done!\n')
       })
     })
-    .catch(err => console.log(err))
+    .catch((err) => console.log(err))
 })
