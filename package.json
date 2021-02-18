@@ -1,11 +1,10 @@
 {
   "name": "@jamr/tachyons.js",
-  "version": "1.0.8",
+  "version": "1.0.0",
   "description": "Tachyons helper function for JavaScript. Built with PostCSS Modules.",
   "main": "dist/tachyons.js",
   "scripts": {
-    "build": "node ./build.js",
-    "publish": "npm publish ./dist"
+    "build": "node ./build.js"
   },
   "keywords": [
     "tachyons",

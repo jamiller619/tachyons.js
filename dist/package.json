@@ -1,6 +1,6 @@
 {
   "name": "@jamr/tachyons.js",
-  "version": "1.0.8",
+  "version": "1.1.0",
   "description": "Tachyons helper function for JavaScript. Built with PostCSS Modules.",
   "main": "index.js",
   "keywords": [
