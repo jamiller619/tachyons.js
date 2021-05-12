@@ -16,7 +16,7 @@
   "author": "Jeff Miller",
   "license": "MIT",
   "dependencies": {
-    "postcss": "^7.0.5",
+    "postcss": "^8.2.10",
     "postcss-modules": "^1.4.1",
     "tachyons": "^4.12.0"
   }
